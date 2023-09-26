@@ -1,0 +1,22 @@
+form input{
+    width: 40%;
+}
+
+
+
+@media (max-width:578px){
+     form{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+     }
+
+     div{
+        overflow-x: hidden;
+     }
+
+    form  input{
+        width: 70%;
+    }
+}
